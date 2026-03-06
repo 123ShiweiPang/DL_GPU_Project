@@ -1,0 +1,5 @@
+﻿# 先执行 pip freeze 查看本地实际版本，再替换
+torch==2.8.0+cu128  # 匹配你的 CUDA 版本（比如 cu121 对应 CUDA 12.1）
+torchvision==0.23.0+cu128
+numpy==1.21.5
+matplotlib==3.5.1
